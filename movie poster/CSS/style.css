@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+/*class*/
+.poster {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 50%;
+    position: relative;
+}
+/*center title*/
+.title {
+    font-family: Love Light;
+    font-size: 120px;
+    position: absolute; /*the text will stay on the poster*/
+    text-align: center;
+    top: 58%;
+    left: 9%;
+    background: linear-gradient(45deg, #ff0681, #eda6c8); /*gradient color*/
+    background-clip: text; /*visual effect*/
+    color: transparent;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5); /*text shadow*/
+}
+.line2{
+    font-family: Advent Pro;
+    font-size: 12px;
+    color: #301934;
+    position: absolute;
+    text-align: center;
+    top: 71%;
+    left: 43%;
+}
+.line3{
+    font-family: Advent Pro;
+    font-size: 22px;
+    color: #301934;
+    position: absolute;
+    text-align: center;
+    top: 73%;
+    left: 43%;
+}
+/*main casts names*/
+.top1 {
+    font-family: Advent Pro;
+    font-size: 12px;
+    color: #301934;
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left: 23%;
+}
+.top2 {
+    font-family: Advent Pro;
+    font-size: 12px;
+    color: #301934;
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left: 35%;
+}
+.top3 {
+    font-family: Advent Pro;
+    font-size: 12px;
+    color: #301934;
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left: 48%;
+}
+.top4 {
+    font-family: Advent Pro;
+    font-size: 12px;
+    color: #301934;
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left: 59%;
+}
+.credits {
+    font-family: Amatic SC;
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    color: whitesmoke;
+}
+/*for every line of credits*/
+.credits p {
+    margin: 5px 0;
+    font-size: 11px;
+    line-height: 1.5;
+}
+/*r logo*/
+.credits p sup {
+    font-size: 15px;
+}
+.copyrights{
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    color: whitesmoke;
+}
+.copyrights p{
+    font-family: Josefin Sans;
+    margin: 5px 0;
+    font-size: 8px;
+    line-height: 1.5;
+}
+/*logos*/
+.logo1{
+    position: absolute;
+    bottom: 20px;
+    padding: 0;
+    margin-left: 30px;
+}
+.logo2{
+    position: absolute;
+    bottom: 40px;
+    padding: 0;
+    margin-left: 60px;
+}
+.logo3{
+    position: absolute;
+    bottom: 20px;
+    padding: 0;
+    margin-left: 60px;
+}
+.logo4{
+    position: absolute;
+    bottom: 20px;
+    padding: 0;
+    right: 20px;
+    margin-right: 30px;
+}
+.book{
+    font-family: "Josefin Sans";
+    position: absolute;
+    font-size: 8px;
+    color: whitesmoke;
+    bottom: 30px;
+    padding: 0;
+    right: 60px;
+    margin-right: 40px;
+}
+/*original poster*/
+footer > img{
+    padding-left: 470px;
+}
